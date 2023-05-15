@@ -71,7 +71,7 @@ public class ObjectPoseSub : MonoBehaviour
             if (real_object != null)
             {
                 Debug.Log("hidden" + object_name);
-                real_object.transform.SetPositionAndRotation(new Vector3(0, -10, 0), new Quaternion(0, 0, 0, 1));
+                // real_object.transform.SetPositionAndRotation(new Vector3(0, -10, 0), new Quaternion(0, 0, 0, 1));
                 real_object.GetComponent<KeepPosition>().keep_aligned = true;
                 virtual_object.GetComponent<Rigidbody>().useGravity = false;
             }
