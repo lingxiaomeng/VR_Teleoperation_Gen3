@@ -79,6 +79,7 @@ public class PlaneDetection : MonoBehaviour
         }
         mesh.uv = uv;
 
+
         // Add MeshRenderer component and assign material
         MeshRenderer meshRenderer = AddOrGetComponent<MeshRenderer>(planeObj);
 
