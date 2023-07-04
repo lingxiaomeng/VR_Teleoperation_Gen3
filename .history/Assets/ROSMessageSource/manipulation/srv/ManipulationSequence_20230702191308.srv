@@ -1,0 +1,5 @@
+manipulation/Manipulation[] manipulation_sequence
+string message
+---
+string result
+int8 status
